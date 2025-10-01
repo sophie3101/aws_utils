@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aws_utils"
+version = "1.0"
+description = "functions to interact with aws services"
+authors = [{ name = "Your Name", email = "huyen.nguyen.0194@gmail.com" }]
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+dependencies = [
+    "boto3",
+    "pytest",
+]
+
+[project.urls]
+Homepage = "https://github.com/sophie3101/aws_utils"
